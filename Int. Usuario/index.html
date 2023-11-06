@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Help</title>
+    <link rel="stylesheet" href="IntUs.css"> 
+</head>
+<body>
+    <div class="izquierda">
+        <div class="logo">
+            <img src="Service Help.JPG" alt="Logo">
+        </div>
+        <h2>Mis Solicitudes</h2>
+        <div class="Botones">
+            <a href="Aiertos">Abiertos</a>
+            <br>
+            <a href="Cerrados">Cerrados</a>
+        </div>
+        <div class="logout">
+            <button>Logout</button>
+        </div>
+    </div>
+
+    <div class="derecha">
+        <form>
+            <div class="linea">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre">
+                </div>    
+                <div class="form-group">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="apellido" id="apellido">
+                </div>
+                <div class="form-group">
+                    <label for="usuario">Usuario</label>
+                    <input type="text" name="usuario" id="usuario">
+                </div>
+                <div class="form-group">
+                    <label for="incidente">Incidente #</label>
+                    <input type="text" name="incidente" id="incidente">
+                </div>
+            </div>
+
+            <div class="linea">
+                <div class="form-group">
+                    <label for="ciudad">Ciudad</label>
+                    <input type="text" name="ciudad" id="ciudad">
+                </div>
+                <div class="form-group">    
+                    <label for="campaña">Campaña</label>
+                    <input type="text" name="campaña" id="campaña">
+                </div>
+                <div class="form-group"> 
+                    <label for="sede">Sede</label>
+                    <input type="text" name="sede" id="sede">
+                </div>
+                <div class="form-group"> 
+                    <label for="telefono">Teléfono</label>
+                    <input type="text" name="telefono" id="telefono">              
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="observaciones">Observaciones</label>
+                <textarea name="observaciones" id="observaciones" cols="30" rows="10"></textarea>
+            </div>
+            
+            <div class="linea">
+                <div class="form-group">
+                    <label for="tipo de falla">Tipo de Falla</label>
+                    <input type="text" name="tipo de falla" id="tipo de falla">
+                </div>
+
+                <div class="form-group">
+                    <label for="dispositivo">Dispositivo</label>
+                    <input type="text" name="dispositivo" id="dispositivo">
+                </div>
+
+                <div class="form-group">
+                    <label for="prioridad">Prioridad</label>
+                    <input type="text" name="prioridad" id="prioridad">
+                </div>
+
+                <div class="form-group">
+                    <label for="estado">Estado</label>
+                    <input type="text" name="estado" id="estado">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="descripcion">Descripción de la Falla</label>
+                <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="adjuntar">Adjuntar Archivos</label>
+                <input type="file" name="adjuntar" id="adjuntar">
+            </div>
+
+            <div class="Enviar">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+

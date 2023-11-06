@@ -1,0 +1,72 @@
+h1{
+    font-family: serif;
+}
+
+h2{
+    font-family: serif;
+    font-size: 50px;
+}
+
+h3{
+    font-family: serif;
+    font-size: 25px;
+}
+
+p{
+    font-family: arial; sans-serif
+    font-size: 35px;
+    
+}
+
+
+
+.contenedor {
+    display: flex;
+    height: 100vh; /* Establece la altura al 100% del viewport */
+    margin: 0;
+}
+
+.izquierda {
+    margin: 0;
+    color: white;
+    flex: 1;
+    background-color: #160f55; /* Color de fondo para la parte izquierda */
+    padding: 20px; /* Espacio interior para el texto */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.derecha {
+    margin: 0;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #bababa; /* Color de fondo para la parte derecha */
+    padding: 20px; /* Espacio interior para el formulario */
+    display: flex;
+}
+
+/* Estilos adicionales para el texto y el formulario */
+.texto {
+    font-size: 28px;
+}
+
+/* Estilos para el formulario (personaliza según tus necesidades) */
+.formulario {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #686969;
+    border-radius: 45px;
+    background-color: white;
+}
+
+.derecha img{
+    max-width: 100%;
+    margin-bottom: 20px;
+}
